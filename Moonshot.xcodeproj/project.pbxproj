@@ -12,6 +12,9 @@
 		1B7761AB24AE10AC00706A75 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B7761AA24AE10AC00706A75 /* Assets.xcassets */; };
 		1B7761AE24AE10AC00706A75 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B7761AD24AE10AC00706A75 /* Preview Assets.xcassets */; };
 		1B7761B724AE352000706A75 /* Astronaut.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B7761B624AE352000706A75 /* Astronaut.swift */; };
+		1B7761BC24AE36AD00706A75 /* missions.json in Resources */ = {isa = PBXBuildFile; fileRef = 1B7761BA24AE36AD00706A75 /* missions.json */; };
+		1B7761BD24AE36AD00706A75 /* astronauts.json in Resources */ = {isa = PBXBuildFile; fileRef = 1B7761BB24AE36AD00706A75 /* astronauts.json */; };
+		1B7761C024AE377B00706A75 /* BundleExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B7761BF24AE377B00706A75 /* BundleExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +26,9 @@
 		1B7761AF24AE10AC00706A75 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1B7761B524AE10F200706A75 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		1B7761B624AE352000706A75 /* Astronaut.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Astronaut.swift; sourceTree = "<group>"; };
+		1B7761BA24AE36AD00706A75 /* missions.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = missions.json; sourceTree = "<group>"; };
+		1B7761BB24AE36AD00706A75 /* astronauts.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = astronauts.json; sourceTree = "<group>"; };
+		1B7761BF24AE377B00706A75 /* BundleExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BundleExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,9 +62,9 @@
 		1B7761A524AE10AA00706A75 /* Moonshot */ = {
 			isa = PBXGroup;
 			children = (
-				1B7761A624AE10AA00706A75 /* MoonshotApp.swift */,
-				1B7761A824AE10AA00706A75 /* ContentView.swift */,
-				1B7761B624AE352000706A75 /* Astronaut.swift */,
+				1B7761B924AE367D00706A75 /* Views */,
+				1B7761B824AE366E00706A75 /* Models */,
+				1B7761BE24AE375F00706A75 /* Extensions */,
 				1B7761AA24AE10AC00706A75 /* Assets.xcassets */,
 				1B7761AF24AE10AC00706A75 /* Info.plist */,
 				1B7761AC24AE10AC00706A75 /* Preview Content */,
@@ -72,6 +78,33 @@
 				1B7761AD24AE10AC00706A75 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		1B7761B824AE366E00706A75 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				1B7761B624AE352000706A75 /* Astronaut.swift */,
+				1B7761BB24AE36AD00706A75 /* astronauts.json */,
+				1B7761BA24AE36AD00706A75 /* missions.json */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		1B7761B924AE367D00706A75 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				1B7761A624AE10AA00706A75 /* MoonshotApp.swift */,
+				1B7761A824AE10AA00706A75 /* ContentView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		1B7761BE24AE375F00706A75 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				1B7761BF24AE377B00706A75 /* BundleExtension.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -132,7 +165,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				1B7761AE24AE10AC00706A75 /* Preview Assets.xcassets in Resources */,
+				1B7761BC24AE36AD00706A75 /* missions.json in Resources */,
 				1B7761AB24AE10AC00706A75 /* Assets.xcassets in Resources */,
+				1B7761BD24AE36AD00706A75 /* astronauts.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -146,6 +181,7 @@
 				1B7761B724AE352000706A75 /* Astronaut.swift in Sources */,
 				1B7761A924AE10AA00706A75 /* ContentView.swift in Sources */,
 				1B7761A724AE10AA00706A75 /* MoonshotApp.swift in Sources */,
+				1B7761C024AE377B00706A75 /* BundleExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
