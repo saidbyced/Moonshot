@@ -15,6 +15,7 @@
 		1B7761BC24AE36AD00706A75 /* missions.json in Resources */ = {isa = PBXBuildFile; fileRef = 1B7761BA24AE36AD00706A75 /* missions.json */; };
 		1B7761BD24AE36AD00706A75 /* astronauts.json in Resources */ = {isa = PBXBuildFile; fileRef = 1B7761BB24AE36AD00706A75 /* astronauts.json */; };
 		1B7761C024AE377B00706A75 /* BundleExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B7761BF24AE377B00706A75 /* BundleExtension.swift */; };
+		1B7761C224AE3C8100706A75 /* Astronauts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B7761C124AE3C8100706A75 /* Astronauts.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,7 @@
 		1B7761BA24AE36AD00706A75 /* missions.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = missions.json; sourceTree = "<group>"; };
 		1B7761BB24AE36AD00706A75 /* astronauts.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = astronauts.json; sourceTree = "<group>"; };
 		1B7761BF24AE377B00706A75 /* BundleExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BundleExtension.swift; sourceTree = "<group>"; };
+		1B7761C124AE3C8100706A75 /* Astronauts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Astronauts.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +87,7 @@
 			children = (
 				1B7761B624AE352000706A75 /* Astronaut.swift */,
 				1B7761BB24AE36AD00706A75 /* astronauts.json */,
+				1B7761C124AE3C8100706A75 /* Astronauts.swift */,
 				1B7761BA24AE36AD00706A75 /* missions.json */,
 			);
 			path = Models;
@@ -180,6 +183,7 @@
 			files = (
 				1B7761B724AE352000706A75 /* Astronaut.swift in Sources */,
 				1B7761A924AE10AA00706A75 /* ContentView.swift in Sources */,
+				1B7761C224AE3C8100706A75 /* Astronauts.swift in Sources */,
 				1B7761A724AE10AA00706A75 /* MoonshotApp.swift in Sources */,
 				1B7761C024AE377B00706A75 /* BundleExtension.swift in Sources */,
 			);
