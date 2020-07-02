@@ -11,6 +11,7 @@
 		1B7761A924AE10AA00706A75 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B7761A824AE10AA00706A75 /* ContentView.swift */; };
 		1B7761AB24AE10AC00706A75 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B7761AA24AE10AC00706A75 /* Assets.xcassets */; };
 		1B7761AE24AE10AC00706A75 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B7761AD24AE10AC00706A75 /* Preview Assets.xcassets */; };
+		1B7761B724AE352000706A75 /* Astronaut.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B7761B624AE352000706A75 /* Astronaut.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		1B7761AD24AE10AC00706A75 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		1B7761AF24AE10AC00706A75 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1B7761B524AE10F200706A75 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		1B7761B624AE352000706A75 /* Astronaut.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Astronaut.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				1B7761A624AE10AA00706A75 /* MoonshotApp.swift */,
 				1B7761A824AE10AA00706A75 /* ContentView.swift */,
+				1B7761B624AE352000706A75 /* Astronaut.swift */,
 				1B7761AA24AE10AC00706A75 /* Assets.xcassets */,
 				1B7761AF24AE10AC00706A75 /* Info.plist */,
 				1B7761AC24AE10AC00706A75 /* Preview Content */,
@@ -140,6 +143,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1B7761B724AE352000706A75 /* Astronaut.swift in Sources */,
 				1B7761A924AE10AA00706A75 /* ContentView.swift in Sources */,
 				1B7761A724AE10AA00706A75 /* MoonshotApp.swift in Sources */,
 			);
