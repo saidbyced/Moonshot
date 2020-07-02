@@ -20,6 +20,7 @@
 		1B7761AA24AE10AC00706A75 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1B7761AD24AE10AC00706A75 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		1B7761AF24AE10AC00706A75 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1B7761B524AE10F200706A75 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +37,7 @@
 		1B77619A24AE10AA00706A75 = {
 			isa = PBXGroup;
 			children = (
+				1B7761B524AE10F200706A75 /* README.md */,
 				1B7761A524AE10AA00706A75 /* Moonshot */,
 				1B7761A424AE10AA00706A75 /* Products */,
 			);
@@ -280,7 +282,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.ChrisEadieDesigns.Moonshot;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -302,7 +304,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.ChrisEadieDesigns.Moonshot;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
