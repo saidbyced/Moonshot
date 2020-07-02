@@ -8,6 +8,8 @@
 import SwiftUI
 
 struct ContentView: View {
+  let astronauts = Astronauts().list
+  
   var body: some View {
     //    NavigationView {
     //      List(0..<100) { row in
