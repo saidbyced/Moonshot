@@ -9,6 +9,7 @@ import SwiftUI
 
 struct ContentView: View {
   let astronauts = Astronauts().list
+  let missions = Missions().list
   
   var body: some View {
     //    NavigationView {
@@ -40,7 +41,10 @@ struct ContentView: View {
     //          print(user.address.street)
     //        }
     //      }
-    Text("\(astronauts.count)")
+    VStack {
+      Text("\(astronauts.count)")
+      Text("\(missions.count)")
+    }
   }
 
 //  struct User: Codable {

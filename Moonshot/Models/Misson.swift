@@ -1,5 +1,5 @@
 //
-//  Misson.swift
+//  Mission.swift
 //  Moonshot
 //
 //  Created by Chris Eadie on 03/07/2020.
@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct Misson: Codable, Identifiable {
+struct Mission: Codable, Identifiable {
   struct CrewPerson: Codable {
     let name: String
     let role: String
