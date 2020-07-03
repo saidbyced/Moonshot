@@ -40,7 +40,7 @@ struct ContentView: View {
     //          print(user.address.street)
     //        }
     //      }
-    Text("Hello, Next.")
+    Text("\(astronauts.count)")
   }
 
 //  struct User: Codable {
