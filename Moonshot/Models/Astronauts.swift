@@ -8,5 +8,5 @@
 import Foundation
 
 struct Astronauts {
-  let list = Bundle.main.decodeAstronauts(from: "astronauts.json")
+  let list: [Astronaut] = Bundle.main.decode("astronauts.json")
 }
