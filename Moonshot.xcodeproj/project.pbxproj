@@ -18,6 +18,8 @@
 		1B7761C224AE3C8100706A75 /* Astronauts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B7761C124AE3C8100706A75 /* Astronauts.swift */; };
 		1B7761C424AF427200706A75 /* Misson.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B7761C324AF427200706A75 /* Misson.swift */; };
 		1B7761CA24AF4FD000706A75 /* Missions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B7761C924AF4FD000706A75 /* Missions.swift */; };
+		1BC1C71424AF61B6007E7196 /* MissionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BC1C71324AF61B6007E7196 /* MissionView.swift */; };
+		1BC1C71624B20396007E7196 /* AstronautView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BC1C71524B20396007E7196 /* AstronautView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +37,8 @@
 		1B7761C124AE3C8100706A75 /* Astronauts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Astronauts.swift; sourceTree = "<group>"; };
 		1B7761C324AF427200706A75 /* Misson.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Misson.swift; sourceTree = "<group>"; };
 		1B7761C924AF4FD000706A75 /* Missions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Missions.swift; sourceTree = "<group>"; };
+		1BC1C71324AF61B6007E7196 /* MissionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MissionView.swift; sourceTree = "<group>"; };
+		1BC1C71524B20396007E7196 /* AstronautView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AstronautView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +108,8 @@
 			children = (
 				1B7761A624AE10AA00706A75 /* MoonshotApp.swift */,
 				1B7761A824AE10AA00706A75 /* ContentView.swift */,
+				1BC1C71324AF61B6007E7196 /* MissionView.swift */,
+				1BC1C71524B20396007E7196 /* AstronautView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -188,6 +194,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				1B7761C424AF427200706A75 /* Misson.swift in Sources */,
+				1BC1C71624B20396007E7196 /* AstronautView.swift in Sources */,
+				1BC1C71424AF61B6007E7196 /* MissionView.swift in Sources */,
 				1B7761B724AE352000706A75 /* Astronaut.swift in Sources */,
 				1B7761A924AE10AA00706A75 /* ContentView.swift in Sources */,
 				1B7761CA24AF4FD000706A75 /* Missions.swift in Sources */,
