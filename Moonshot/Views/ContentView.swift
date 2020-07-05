@@ -14,41 +14,46 @@ struct ContentView: View {
   var body: some View {
     NavigationView {
       List(missions) { mission in
-        NavigationLink(destination: Text("Detail view")) {
-          MissionLogo(mission: mission)
+        NavigationLink(destination: MissionView(mission: mission, astronauts: astronauts)) {
+          MissionLogo(image: mission.image)
           MissionDetails(mission: mission)
         }
       }
       .navigationBarTitle("MoonShot")
     }
   }
-}
-
-struct MissionLogo: View {
-  var mission: Mission
   
-  var body: some View {
-    Image(mission.image)
-      .resizable()
-      .scaledToFit()
-      .frame(width: 44, height: 44)
-  }
-}
-
-struct MissionDetails: View {
-  var mission: Mission
-  
-  var body: some View {
-    VStack(alignment: .leading) {
-      Text(mission.displayName)
-        .font(.headline)
-      Text(mission.formattedLaunchDate)
+  struct MissionLogo: View {
+    var image: String
+    
+    var body: some View {
+      Image(image)
+        .resizable()
+        .scaledToFit()
+        .frame(width: 44, height: 44)
     }
   }
+  
+  struct MissionDetails: View {
+    var mission: Mission
+    
+    var body: some View {
+      VStack(alignment: .leading) {
+        Text(mission.displayName)
+          .font(.headline)
+        Text(mission.formattedLaunchDate)
+      }
+    }
+  }
+  
 }
 
 struct ContentView_Previews: PreviewProvider {
   static var previews: some View {
-    ContentView()
+    Group {
+      ContentView()
+      ContentView()
+        .preferredColorScheme(.dark)
+    }
   }
 }
