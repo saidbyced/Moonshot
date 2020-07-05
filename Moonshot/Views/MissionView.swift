@@ -36,17 +36,20 @@ struct MissionView: View {
           Text(self.mission.description)
             .padding()
           ForEach(self.crew, id: \.role) { crewMember in
-            HStack {
-              CrewMemberHeadshot(crewMember: crewMember)
-              if crewMember.role.contains("Commander") {
-                CrewMemberDetails(crewMember: crewMember)
-                  .font(.headline)
-              } else {
-                CrewMemberDetails(crewMember: crewMember)
+            NavigationLink(destination: AstronautView(astronaut: crewMember.astronaut)) {
+              HStack {
+                CrewMemberHeadshot(crewMember: crewMember)
+                if crewMember.role.contains("Commander") {
+                  CrewMemberDetails(crewMember: crewMember)
+                    .font(.headline)
+                } else {
+                  CrewMemberDetails(crewMember: crewMember)
+                }
+                Spacer()
               }
-              Spacer()
+              .padding(.horizontal)
             }
-            .padding(.horizontal)
+            .buttonStyle(PlainButtonStyle())
           }
           Spacer(minLength: 25)
         }
