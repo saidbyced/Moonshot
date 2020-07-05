@@ -99,13 +99,13 @@ struct MissionView: View {
 }
 
 struct MissionView_Previews: PreviewProvider {
-  static let missions = Missions().list
+  static let mission = Missions().list[(Int.random(in: 0..<Missions().list.count))]
   static let astronauts = Astronauts().list
 
   static var previews: some View {
     Group {
-      MissionView(mission: missions[0], astronauts: astronauts)
-      MissionView(mission: missions[1], astronauts: astronauts)
+      MissionView(mission: mission, astronauts: astronauts)
+      MissionView(mission: mission, astronauts: astronauts)
         .preferredColorScheme(.dark)
     }
   }
